@@ -12,7 +12,7 @@ export const Card = ({ currentPokemon }) => {
   // Ejecuto en automático la action para obtener la info de la DB y actualizar las card
   useEffect(() => {
   dispatch(getAllPokemon());
-  },[currentPokemon])
+  },[])
 
   // Recargar todos los pokemon 
   const handleLoadPokemon = (e) => {
