@@ -7,7 +7,7 @@ import {Details} from './Pages/Details/Details';
 import {Contact} from './Pages/Contact/Contact';
 
 import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:3001'
+axios.defaults.baseURL = 'https://pokemon-back-0lo0.onrender.com/'
 
 function App() {
   return (
